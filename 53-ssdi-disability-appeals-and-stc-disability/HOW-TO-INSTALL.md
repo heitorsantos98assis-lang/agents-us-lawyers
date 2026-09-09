@@ -1,4 +1,4 @@
-# 53-ssdi-disability-appeals-and-stc-disability — Claude Code Agent
+# 53-ssdi-disability-appeals-and-stc-disability — Codex Agent
 
 A specialist subagent from the **57 Agents for US Lawyers** bundle (HL).
 
@@ -10,7 +10,7 @@ See `53-ssdi-disability-appeals-and-stc-disability.md` for the full description,
 
 ### Prerequisites
 
-- [Claude Code](https://docs.claude.com/claude-code) installed and logged in
+- [Codex](https://docs.Codex.com/Codex-code) installed and logged in
 - A terminal with `unzip`
 
 ### Install in 30 seconds
@@ -21,20 +21,20 @@ See `53-ssdi-disability-appeals-and-stc-disability.md` for the full description,
 unzip 53-ssdi-disability-appeals-and-stc-disability.zip
 ```
 
-**2. Copy the agent into your Claude Code project:**
+**2. Copy the agent into your Codex project:**
 
 ```bash
-mkdir -p .claude/agents
-cp 53-ssdi-disability-appeals-and-stc-disability.md .claude/agents/
+mkdir -p .codex/agents
+cp 53-ssdi-disability-appeals-and-stc-disability.md .codex/agents/
 
 # OR install globally for all projects:
-mkdir -p ~/.claude/agents
-cp 53-ssdi-disability-appeals-and-stc-disability.md ~/.claude/agents/
+mkdir -p .codex/agents/
+cp 53-ssdi-disability-appeals-and-stc-disability.md .codex/agents/
 ```
 
-**3. Restart Claude Code** (or run `/agents` to refresh).
+**3. Restart Codex** (or run `/agents` to refresh).
 
-**4. Invoke the agent.** Just describe your task — Claude Code will pick this subagent automatically when relevant, or call it explicitly:
+**4. Invoke the agent.** Just describe your task — Codex will pick this subagent automatically when relevant, or call it explicitly:
 
 ```
 Use the ssdi-disability-appeals-and-stc-disability subagent to ...
@@ -43,12 +43,12 @@ Use the ssdi-disability-appeals-and-stc-disability subagent to ...
 ## Verifying installation
 
 ```bash
-ls .claude/agents/   # should list 53-ssdi-disability-appeals-and-stc-disability.md
+ls .codex/agents/   # should list 53-ssdi-disability-appeals-and-stc-disability.md
 # OR
-ls ~/.claude/agents/ # for global install
+ls .codex/agents/ # for global install
 ```
 
-In Claude Code, run `/agents` to see the agent listed.
+In Codex, run `/agents` to see the agent listed.
 
 ## Updating
 
@@ -57,14 +57,14 @@ When a new version is released, re-run the unzip + copy steps above. The new fil
 ## Uninstall
 
 ```bash
-rm .claude/agents/53-ssdi-disability-appeals-and-stc-disability.md
+rm .codex/agents/53-ssdi-disability-appeals-and-stc-disability.md
 # OR
-rm ~/.claude/agents/53-ssdi-disability-appeals-and-stc-disability.md
+rm .codex/agents/53-ssdi-disability-appeals-and-stc-disability.md
 ```
 
 ## Support
 
-- Documentation: [Claude Code docs — Subagents](https://docs.claude.com/claude-code)
+- Documentation: [Codex docs — Subagents](https://docs.Codex.com/Codex-code)
 - Issues / questions: open an issue at the repo where you bought this bundle.
 
 ---

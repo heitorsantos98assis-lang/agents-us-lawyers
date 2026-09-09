@@ -1,4 +1,4 @@
-# 23-mergers-acquisitions-due-diligence — Claude Code Agent
+# 23-mergers-acquisitions-due-diligence — Codex Agent
 
 A specialist subagent from the **57 Agents for US Lawyers** bundle (HL).
 
@@ -10,7 +10,7 @@ See `23-mergers-acquisitions-due-diligence.md` for the full description, framewo
 
 ### Prerequisites
 
-- [Claude Code](https://docs.claude.com/claude-code) installed and logged in
+- [Codex](https://docs.Codex.com/Codex-code) installed and logged in
 - A terminal with `unzip`
 
 ### Install in 30 seconds
@@ -21,20 +21,20 @@ See `23-mergers-acquisitions-due-diligence.md` for the full description, framewo
 unzip 23-mergers-acquisitions-due-diligence.zip
 ```
 
-**2. Copy the agent into your Claude Code project:**
+**2. Copy the agent into your Codex project:**
 
 ```bash
-mkdir -p .claude/agents
-cp 23-mergers-acquisitions-due-diligence.md .claude/agents/
+mkdir -p .codex/agents
+cp 23-mergers-acquisitions-due-diligence.md .codex/agents/
 
 # OR install globally for all projects:
-mkdir -p ~/.claude/agents
-cp 23-mergers-acquisitions-due-diligence.md ~/.claude/agents/
+mkdir -p .codex/agents/
+cp 23-mergers-acquisitions-due-diligence.md .codex/agents/
 ```
 
-**3. Restart Claude Code** (or run `/agents` to refresh).
+**3. Restart Codex** (or run `/agents` to refresh).
 
-**4. Invoke the agent.** Just describe your task — Claude Code will pick this subagent automatically when relevant, or call it explicitly:
+**4. Invoke the agent.** Just describe your task — Codex will pick this subagent automatically when relevant, or call it explicitly:
 
 ```
 Use the mergers-acquisitions-due-diligence subagent to ...
@@ -43,12 +43,12 @@ Use the mergers-acquisitions-due-diligence subagent to ...
 ## Verifying installation
 
 ```bash
-ls .claude/agents/   # should list 23-mergers-acquisitions-due-diligence.md
+ls .codex/agents/   # should list 23-mergers-acquisitions-due-diligence.md
 # OR
-ls ~/.claude/agents/ # for global install
+ls .codex/agents/ # for global install
 ```
 
-In Claude Code, run `/agents` to see the agent listed.
+In Codex, run `/agents` to see the agent listed.
 
 ## Updating
 
@@ -57,14 +57,14 @@ When a new version is released, re-run the unzip + copy steps above. The new fil
 ## Uninstall
 
 ```bash
-rm .claude/agents/23-mergers-acquisitions-due-diligence.md
+rm .codex/agents/23-mergers-acquisitions-due-diligence.md
 # OR
-rm ~/.claude/agents/23-mergers-acquisitions-due-diligence.md
+rm .codex/agents/23-mergers-acquisitions-due-diligence.md
 ```
 
 ## Support
 
-- Documentation: [Claude Code docs — Subagents](https://docs.claude.com/claude-code)
+- Documentation: [Codex docs — Subagents](https://docs.Codex.com/Codex-code)
 - Issues / questions: open an issue at the repo where you bought this bundle.
 
 ---

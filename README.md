@@ -1,8 +1,8 @@
 # 57 Agents for US Lawyers
 
-**57 specialized Claude Code subagents for US-licensed attorneys and small firms practicing in federal + state courts (CA/NY/TX/FL/IL)** — built by senior practitioners, regulated for US business reality.
+**57 specialized Codex subagents for US-licensed attorneys and small firms practicing in federal + state courts (CA/NY/TX/FL/IL)** — built by senior practitioners, regulated for US business reality.
 
-Each agent is a single drop-in Markdown file you copy into `.claude/agents/`. Claude Code routes work to the right specialist automatically.
+Each agent is a single drop-in Markdown file you copy into `.codex/agents/`. Codex routes work to the right specialist automatically.
 
 ---
 
@@ -74,25 +74,25 @@ Each agent is a single drop-in Markdown file you copy into `.claude/agents/`. Cl
 
 ```bash
 cd path/to/your/project
-mkdir -p .claude/agents
+mkdir -p .codex/agents
 unzip 01-docket-monitoring-pacer-state-efile.zip
-cp 01-docket-monitoring-pacer-state-efile/01-docket-monitoring-pacer-state-efile.md .claude/agents/
+cp 01-docket-monitoring-pacer-state-efile/01-docket-monitoring-pacer-state-efile.md .codex/agents/
 ```
 
-Restart Claude Code or run `/agents`. Done.
+Restart Codex or run `/agents`. Done.
 
 ## Install all 57
 
 ```bash
 unzip completo-57-agents-us-lawyers.zip
 for z in [0-9][0-9]-*.zip; do unzip -o "$z"; done
-mkdir -p ~/.claude/agents
-find . -mindepth 2 -name '*.md' -not -name 'HOW-TO-INSTALL.md' -exec cp {} ~/.claude/agents/ \;
+mkdir -p .codex/agents/
+find . -mindepth 2 -name '*.md' -not -name 'HOW-TO-INSTALL.md' -exec cp {} .codex/agents/ \;
 ```
 
 ## How agents work
 
-Each `.md` has YAML frontmatter defining when it fires. Claude Code reads the `description` and routes automatically — or invoke explicitly:
+Each `.md` has YAML frontmatter defining when it fires. Codex reads the `description` and routes automatically — or invoke explicitly:
 
 ```
 Use the docket-monitoring-pacer-state-efile subagent to ...
@@ -107,7 +107,7 @@ Each agent:
 
 ## Requirements
 
-- [Claude Code](https://docs.claude.com/claude-code) installed and logged in
+- [Codex](https://docs.Codex.com/Codex-code) installed and logged in
 - `unzip` on your machine
 
 ## Versioning

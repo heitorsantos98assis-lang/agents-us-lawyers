@@ -1,6 +1,6 @@
 # 19-client-communication-cadence — Claude Code Agent
 
-A specialist subagent from the **57 Agents for US Lawyers** bundle (Bravy / ASV Digital).
+A specialist subagent from the **57 Agents for US Lawyers** bundle (HL).
 
 ## What this agent does
 
@@ -69,4 +69,4 @@ rm ~/.claude/agents/19-client-communication-cadence.md
 
 ---
 
-© Bravy / ASV Digital — 57 Agents for US Lawyers
+© HL — 57 Agents for US Lawyers

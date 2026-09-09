@@ -1,6 +1,6 @@
 # 53-ssdi-disability-appeals-and-stc-disability — Claude Code Agent
 
-A specialist subagent from the **57 Agents for US Lawyers** bundle (Bravy / ASV Digital).
+A specialist subagent from the **57 Agents for US Lawyers** bundle (HL).
 
 ## What this agent does
 
@@ -69,4 +69,4 @@ rm ~/.claude/agents/53-ssdi-disability-appeals-and-stc-disability.md
 
 ---
 
-© Bravy / ASV Digital — 57 Agents for US Lawyers
+© HL — 57 Agents for US Lawyers
